@@ -1,0 +1,66 @@
+.container {
+  @media (max-width: 400px) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.hero {
+  background-image: url("/images/asosiy-rasm.png");
+  background-repeat: no-repeat;
+  height: 687px;
+  background-size: 1600px;
+  background-position: center;
+
+  @media (max-width: 400px) {
+    // background-image: url("/images/asosiy-rasm-2.png");
+    height: 495px;
+    background-position: 70%;
+  }
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    width: 445px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+
+    @media (max-width: 400px) {
+      width: 295px;
+      font-size: 28px;
+      line-height: 33px;
+    }
+  }
+
+  p {
+    width: 537px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+
+    @media (max-width: 400px) {
+      width: 300px;
+      font-size: 16px;
+      line-height: 23px;
+    }
+  }
+  .line {
+    padding-top: 300px;
+    border: 2px solid #fff;
+  }
+}

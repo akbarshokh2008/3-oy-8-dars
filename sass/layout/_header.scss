@@ -1,0 +1,68 @@
+.header {
+  background: #fff;
+}
+.container {
+  @media (max-width: 400px) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .logo-rasm {
+    @media (max-width: 400px) {
+      width: 100px;
+    }
+    .birinchi__img {
+      display: none;
+      @media (max-width: 400px) {
+        display: flex;
+      }
+    }
+  }
+  .navbar {
+    display: flex;
+    gap: 30px;
+
+    a {
+      font-family: Releway;
+      color: #282b22;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+    }
+    @media (max-width: 400px) {
+      display: none;
+    }
+  }
+  .header__aloqa {
+    gap: 30px;
+    display: flex;
+
+    @media (max-width: 400px) {
+      display: none;
+    }
+  }
+  .mobil {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aloqa__tarmoqlar {
+    display: flex;
+    gap: 15px;
+  }
+  .aloqa__mobil {
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

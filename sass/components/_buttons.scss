@@ -1,0 +1,13 @@
+.btn {
+  background: #e48e24;
+  padding: 20px 30px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  border: none;
+
+  @media (max-width: 400px) {
+    width: 300px;
+  }
+}

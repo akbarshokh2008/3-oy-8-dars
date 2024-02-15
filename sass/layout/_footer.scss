@@ -1,0 +1,37 @@
+.footer {
+  background: rgb(107, 107, 107);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .navbar a {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+  }
+}
+.footer2 {
+  background: #111111;
+}
+.footer-container {
+}
+.footer2__text {
+  color: rgb(119, 119, 119);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
